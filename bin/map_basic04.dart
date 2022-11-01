@@ -13,5 +13,5 @@ Map func(List lst1, List lst2) {
 }
 
 void main() {
-  print(func([1],['ffffff']));
+  print(func([1,2,3,4,5,6,7],['bir','ikki','uch','tort','besh','olti']));
 }
