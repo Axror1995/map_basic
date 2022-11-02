@@ -7,10 +7,10 @@ Then return the map.
 */
 
 Map func(Map dct) {
-  ;
+  Map dct = {'Axror': 'Raximov 1995'};
   return dct;
 }
 
 void main() {
-  print(func({'Axror': 'Raximov 1995'}));
+  print(func({}));
 }
