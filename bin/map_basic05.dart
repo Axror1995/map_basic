@@ -6,11 +6,11 @@ Then return the map.
 
 */
 
-Map func() {
-  Map dct = {'Axror': 'Raximov 1995'};
+Map func(Map dct) {
+  ;
   return dct;
 }
 
 void main() {
-  print(func());
+  print(func({'Axror': 'Raximov 1995'}));
 }
