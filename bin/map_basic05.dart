@@ -7,7 +7,7 @@ Then return the map.
 */
 
 Map func() {
-  Map dct = {'Axror': 'Raximov'};
+  Map dct = {'Axror': 'Raximov 1995'};
   return dct;
 }
 
