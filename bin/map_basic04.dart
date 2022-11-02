@@ -8,10 +8,15 @@ Return list_to_map variable
 */
 
 Map func(List lst1, List lst2) {
-  Map data = {lst1: lst2};
-  return data;
+  Map list_to_map = {};
+  int i = 0;
+  while (lst1.length > i && lst2.length > i) {
+    list_to_map[lst1[i]] = lst2[i];
+    i++;
+  }
+  return list_to_map;
 }
 
 void main() {
-  print(func([1,2,3,4,5,6,7],['bir','ikki','uch','tort','besh','olti']));
+  print(func([1,2,3,4],['one','two','three','four']));
 }
